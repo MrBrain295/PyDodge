@@ -21,3 +21,4 @@ gunicorn
 certauth
 youtube-dl
 python-dateutil
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
