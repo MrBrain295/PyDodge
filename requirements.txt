@@ -10,7 +10,7 @@ py3amf
 uwsgi
 werkzeug
 webencodings
-gevent==20.9.0
+gevent==25.4.1
 webassets==0.12.1
 portalocker
 wsgiprox>=1.5.1
@@ -21,3 +21,4 @@ gunicorn
 certauth
 youtube-dl
 python-dateutil
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
